@@ -1,0 +1,24 @@
+{
+  "name": "html-safe",
+  "version": "1.0.0",
+  "description": "HTML Safe, is a simple tool which sanitises pasted text from a word processor (like Word™).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evolutionxbox/htmlsafe.git"
+  },
+  "keywords": [
+    "HTML",
+    "santize",
+    "santise",
+    "safe",
+    "word",
+    "excel",
+    "pages"
+  ],
+  "author": "Jonathan Cousins @evolutionxbox",
+  "license": "MIT"
+}
