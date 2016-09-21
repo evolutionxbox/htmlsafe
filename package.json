@@ -4,7 +4,8 @@
   "description": "HTML Safe, is a simple tool which sanitises pasted text from a word processor (like Word™).",
   "main": "index.js",
   "scripts": {
-    "test": "jshint js/main.js"
+    "test": "jshint js/main.js",
+    "start": "browser-sync start --s --host '0.0.0.0' --port '1235' -f './'"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "pages"
   ],
   "author": "Jonathan Cousins @evolutionxbox",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.16.0"
+  }
 }
